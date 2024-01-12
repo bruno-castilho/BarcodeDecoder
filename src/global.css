@@ -1,0 +1,28 @@
+:root {
+
+    --gray-100: #f2f2f2;
+    --gray-300: #808080;
+    --gray-400: #333333;
+    --gray-600: #1A1A1A;
+    --gray-700: #0D0D0D;
+
+
+    --purple: #8284FA;
+    --PurpleDark: #5E60CE;
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: var(--gray-600);
+    color: var(--gray-100);
+    -webkit-font-smoothing: antialiased;
+}
+

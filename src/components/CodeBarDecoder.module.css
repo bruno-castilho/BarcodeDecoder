@@ -1,0 +1,62 @@
+
+.CodeBarDecoderContainer {
+    width: 400px;
+    height: 100%;
+    margin: 100px auto;
+
+    color: var(--gray-100);
+}
+
+
+.SelectContainer > label{
+    display: block;
+
+    margin-bottom: 4px;
+}
+
+.SelectContainer > select{
+    min-width: 200px;
+    padding: 8px;
+    border-radius: 6px;
+    border: 2px solid var(--purple);
+    margin-bottom: 20px;
+    color: var(--gray-700);
+}
+
+.videoContainer > video{
+    background-color: var(--gray-700);
+    border-radius: 6px;
+    border: 2px solid var(--purple);
+    margin-bottom: 20px;
+}
+
+
+.buttonsContainer {
+    margin-bottom: 20px;
+}
+
+.buttonsContainer > button {
+    background-color: var(--purple);
+    color: var(--gray-100);
+    border-radius: 6px;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.buttonsContainer > button:disabled {
+    background-color: var(--gray-300);
+    cursor:not-allowed;
+}
+
+.buttonsContainer > button + button {
+    margin-left: 4px;
+}
+
+.buttonsContainer > button:hover{
+    background-color: var(--PurpleDark);
+}
+
+.buttonsContainer > button:disabled:hover {
+    background-color: var(--gray-300);
+}
