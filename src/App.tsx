@@ -1,10 +1,10 @@
-import { CodeBarDecoder } from './components/CodeBarDecoder'
+import { BarcodeDecoder } from './components/BarcodeDecoder'
 import './global.css'
 
 function App() {
   return (
     <>
-      <CodeBarDecoder />
+      <BarcodeDecoder />
     </>
   )
 }

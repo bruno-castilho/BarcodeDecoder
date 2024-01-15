@@ -4,11 +4,11 @@ import {
   Result,
 } from '@zxing/library'
 import { ChangeEvent, useRef, useState } from 'react'
-import styles from './CodeBarDecoder.module.css'
+import styles from './BarcodeDecoder.module.css'
 
 const codeReader = new BrowserMultiFormatReader()
 
-export function CodeBarDecoder() {
+export function BarcodeDecoder() {
   const [inputDevices, setInputDevices] = useState<MediaDeviceInfo[]>([])
   const [resultTXT, setResultTXT] = useState('')
   const [selectedDeviceId, setSelectedDeviceId] = useState('')
@@ -60,7 +60,7 @@ export function CodeBarDecoder() {
 
   const isInputDevicesEmpty = inputDevices.length === 0
   return (
-    <section className={styles.CodeBarDecoderContainer}>
+    <section className={styles.BarcodeDecoderContainer}>
       <div>
         <div className={styles.SelectContainer}>
           <label>Change video source:</label>
